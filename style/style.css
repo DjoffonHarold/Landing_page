@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+.hero{
+    background-color: #1F2937;
+}
+.main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.header-link-text,
+.secondary-text{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.header-logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.main-button{
+    background-color: #3882F6;
+    border: none;
+    padding: 6px 24px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    gap: 8px;   
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px;
+}
+.main-hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    
+}
+.left-side{
+    width: 300px ;
+}
+.right-side{
+    
+}
+.img-1{
+    height: 200px;
+    width: 400px;
+}
+/*..........information..........*/
+.main-information{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 20px;
+}
+.main-bloc{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 80px;
+    color: #696969;
+}
+.img-2{
+    width: 124px;
+    
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+}
+.secondary-information{
+    max-width: 150px;
+}
+/*..........quote..............*/
+.quote{
+    background-color: #E5E7EB; 
+    padding: 9rem 16rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-owner{
+    font-weight: bold;
+    align-self: flex-end;
+}
+/*........sign up.........*/
+.sign-up-main{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    padding: 2rem;
+    color: white;
+}
+.sign-up{
+    padding: 6rem 12rem
+}
+.sign-up-button{
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 3px 20px;
+    color: white;
+    font-weight: bold;   
+}
+.sign-up-primary-text{
+    font-weight: bold;
+    font-size: 18px;
+}
+/*..........footer........*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 1.5rem 1.5rem;
+    color: white;
+}
